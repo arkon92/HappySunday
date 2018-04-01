@@ -8,6 +8,9 @@ private class Main implements Comparator<Point>
 
             if (slope1 < slope2) return -1;
             if (slope2 < slope1) return 1;
+			
+			int slope3 = 10;
+
             return 0;
         }
 	}
